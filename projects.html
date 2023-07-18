@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <title>Introduction</title>
+    <title>Projects</title>
 </head>
 
 <body>
-    <div>
+    <div class="sidebar">
         <img src="assets/selfie.jpg"
             alt="A selfie taken by Nahdaa Jawed. She has straight black hair and is wearing a blue top." width=200>
-        <h1>Nahdaa Jawed</h1>
-        <h2>Software Developer</h2>
+        <h1 class="name">Nahdaa Jawed</h1>
+        <h2 class="job_title">Software Developer</h2>
 
         <div class="sidebar_buttons">
             <a href="main_page.html">Home</a>
@@ -18,15 +18,87 @@
             <a href="education.html">Education</a>
             <a href="cv_download.html">Downloadable CV</a>
         </div>
+
+        <div class="contact">
+            <p>nahdaajawed@gmail.com</p>
+            <p>07918859330</p>
+            <p>LinkedIn</p>
+            <p>GitHub</p>
+        </div>
     </div>
 
     <div>
-        <h2>Project 1</h2>
-        <p>Hello</p>
-        <h2>Project 2</h2>
-        <p>Hello</p>
-        <h2>Project 3</h2>
-        <p>Hello</p>
+        <div class="tech_skils">
+            <h2>Technical Skills</h2>
+            <p>C# | .NET | Python | MySQL | JavaScript | HTML5 | CSS5</p>
+        </div>
+
+        <a href="https://github.com/NahdaaJ/healthy-eating-app">
+            <div class="project_card">
+                <h2>Healthy Eating App</h2>
+                <p class="project_date">July 2023 - Current</p>
+                <p>This project allows users to search and save recipes. The program uses the Edamam API to generate and
+                    search
+                    for recipes depending on calorie limit, dietary requirements, and/or main ingredient. When prompted,
+                    the
+                    program can create a meal plan using user input. When the user is satisfied with the meal plan, the
+                    program
+                    provides a shopping list.</p>
+                <p class="built_with">Python | MySQL | API's</p>
+            </div>
+        </a>
+
+        <a href="https://github.com/NahdaaJ/online-cv">
+            <div class="project_card">
+                <h2>Online CV</h2>
+                <p class="project_date">July 2023 - Current</p>
+                <p>This very website is a project! The aim of this project is to practice my HTML and CSS understanding.
+                    I
+                    used
+                    multiple HTML files so that you can navigate through the pages listed in the side bar. Using a CSS
+                    file,
+                    I
+                    styled the look of the webpages.</p>
+                <p class="built_with">C# | .NET | MySQL</p>
+            </div>
+        </a>
+
+        <a href="https://github.com/NahdaaJ/top-trumps-game">
+            <div class="project_card">
+                <h2>Top Trumps Game</h2>
+                <p class="project_date">June 2023 - July 2023</p>
+                <p>A project that aims to immitate the famous Top Trumps game using external, third-party API's. During
+                    the
+                    game,
+                    the user is presented a card from which they have to choose a stat. The stat is compared against the
+                    same
+                    stat on the CPU's card, and the higher stat wins the round and gains a point. At the end, the player
+                    with
+                    the highest number of points wins. Previous game history with timestamps and details can be viewed.
+                </p>
+                <p class="built_with">Python | API's</p>
+            </div>
+        </a>
+
+        <a href="https://github.com/NahdaaJ/LibraryManagementSystem">
+            <div class="project_card">
+                <h2>Library Management System</h2>
+                <p class="project_date">May 2023 - May 2023</p>
+                <p>This is a Library Management System project. This project mimics how a library system would run,
+                    including
+                    user and staff login with different functionalities. THe users can loan, return and search for
+                    books.
+                    Staff
+                    can create, delete and edit users, renew books and edit the book inventory table. The project is
+                    linked
+                    to a
+                    library manager relational database, that contains three tables that are responsible for book
+                    inventory,
+                    user details and loans. </p>
+                <p class="built_with">C# | .NET | MySQL</p>
+            </div>
+        </a>
+
     </div>
 </body>
 
