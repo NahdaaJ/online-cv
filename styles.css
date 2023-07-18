@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Lily Script One', cursive;
+    font-size: 50px;
+    margin: none;
+    padding: none;
+}
+
+h2,
+h3,
+p,
+a {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+}
