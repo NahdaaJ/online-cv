@@ -1,15 +1,74 @@
 h1 {
-    font-family: 'Lily Script One', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 50px;
     margin: none;
     padding: none;
+    line-height: 45px;
 }
 
-h2,
-h3,
-p,
+.job_title {
+    font-size: 25px;
+    line-height: 0px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+body,
 a {
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-    color: black;
+    color: #1f2e3d;
+    display: flex;
+    text-decoration: none;
+}
+
+.selfie {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 200px;
+    margin-top: 30px;
+    margin-bottom: -25px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+
+    background-color: #97bfe4;
+    text-align: center;
+}
+
+.sidebar_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.button {
+    background-color: #eff7fe;
+    padding: 5px;
+    font-size: 17px;
+    width: 175px;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+
+    transition: padding-left 0.15s, padding-right 0.15s, background-color 0.15s, font-weight 0.15s;
+    font-weight: normal;
+}
+
+.button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    background-color: #d1eafe;
+}
+
+.content {
+    margin-left: 300px;
 }
