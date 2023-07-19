@@ -55,7 +55,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .button {
@@ -79,6 +79,8 @@ a {
 }
 
 .contact {
+    position: fixed;
+    bottom: 20px;
     margin-left: 20px;
     display: grid;
     grid-template-columns: 1fr;
