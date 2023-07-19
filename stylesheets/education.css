@@ -1,0 +1,47 @@
+.title {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.education_page_title {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+hr {
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content_split {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+}
+
+.education_content,
+.skill_content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.subtitle {
+    font-size: 40px;
+    background-color: #bfd9f1;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.sub_hr {
+    border-width: 2px;
+    border-style: dashed;
+    color: #9dc0e0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
