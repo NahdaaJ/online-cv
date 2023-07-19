@@ -3,7 +3,8 @@
 
 <head>
     <title>Projects</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
@@ -19,89 +20,122 @@
         <div class="sidebar_buttons">
             <a class="button" href="main_page.html">Home</a>
             <a class="button" href="projects.html">Projects</a>
-            <a class="button" href="education.html">Education</a>
+            <a class="button" href="education.html">Education & Skills</a>
             <a class="button" href="cv_download.html">Downloadable CV</a>
         </div>
 
         <div class="contact">
-            <p>nahdaajawed@gmail.com</p>
-            <p>07918859330</p>
-            <p>LinkedIn</p>
-            <p>GitHub</p>
+            <a class="separate_contact" href="mailto:nahdaajawed@gmail.com">
+                <img class="contact_image" src="assets/email.png">
+                <p class="contact_text">nahdaajawed@gmail.com</p>
+            </a>
+
+            <div class="separate_contact">
+                <img class="contact_image" src="assets/phone-call.png">
+                <p class="contact_text">07918859330</p>
+            </div>
+
+            <a class="separate_contact" href="https://www.linkedin.com/in/nahdaa-jawed/" target="_blank">
+                <img class="contact_image" src="assets/linkedin.png">
+                <p class="contact_text">nahdaa-jawed</p>
+            </a>
+
+            <a class="separate_contact" href="https://github.com/NahdaaJ" target="_blank">
+                <img class="contact_image" src="assets/github.png">
+                <p class="contact_text">NahdaaJ</p>
+            </a>
         </div>
     </div>
 
     <div class="content">
-        <div class="tech_skils">
-            <h2>Technical Skills</h2>
-            <p>C# | .NET | Python | MySQL | JavaScript | HTML5 | CSS5</p>
+        <div class="title">
+            <h1 class="project_page_title">Projects</h1>
+            <hr />
         </div>
 
-        <a href="https://github.com/NahdaaJ/healthy-eating-app">
-            <div class="project_card">
-                <h2>Healthy Eating App</h2>
-                <p class="project_date">July 2023 - Current</p>
-                <p>This project allows users to search and save recipes. The program uses the Edamam API to generate and
-                    search
-                    for recipes depending on calorie limit, dietary requirements, and/or main ingredient. When prompted,
-                    the
-                    program can create a meal plan using user input. When the user is satisfied with the meal plan, the
-                    program
-                    provides a shopping list.</p>
-                <p class="built_with">Python | MySQL | API's</p>
-            </div>
-        </a>
+        <div class="projects">
+            <a href="https://github.com/NahdaaJ/healthy-eating-app" target="_blank">
+                <div class="project_card">
+                    <h2>Healthy Eating App</h2>
+                    <p class="project_date">July 2023 - Current</p>
+                    <p>This project allows users to search and save recipes. The program uses the Edamam API to generate
+                        and
+                        search
+                        for recipes depending on calorie limit, dietary requirements, and/or main ingredient. When
+                        prompted,
+                        the
+                        program can create a meal plan using user input. When the user is satisfied with the meal plan,
+                        the
+                        program
+                        provides a shopping list.</p>
+                    <hr class="project_card_hr" />
+                    <p class="built_with"><span class="tech">Python</span> <span class="tech">MySQL</span> <span
+                            class="tech">API's</span></p>
+                </div>
+            </a>
 
-        <a href="https://github.com/NahdaaJ/online-cv">
-            <div class="project_card">
-                <h2>Online CV</h2>
-                <p class="project_date">July 2023 - Current</p>
-                <p>This very website is a project! The aim of this project is to practice my HTML and CSS understanding.
-                    I
-                    used
-                    multiple HTML files so that you can navigate through the pages listed in the side bar. Using a CSS
-                    file,
-                    I
-                    styled the look of the webpages.</p>
-                <p class="built_with">C# | .NET | MySQL</p>
-            </div>
-        </a>
+            <a href="https://github.com/NahdaaJ/online-cv" target="_blank">
+                <div class="project_card">
+                    <h2>Online CV</h2>
+                    <p class="project_date">July 2023 - Current</p>
+                    <p>This very website is a project! The aim of this project is to practice my HTML and CSS
+                        understanding.
+                        I
+                        used
+                        multiple HTML files so that you can navigate through the pages listed in the side bar. Using a
+                        CSS
+                        file,
+                        I
+                        styled the look of the webpages.</p>
+                    <hr class="project_card_hr" />
+                    <p class="built_with"><span class="tech">HTML5</span> <span class="tech">CSS3</span></p>
+                </div>
+            </a>
 
-        <a href="https://github.com/NahdaaJ/top-trumps-game">
-            <div class="project_card">
-                <h2>Top Trumps Game</h2>
-                <p class="project_date">June 2023 - July 2023</p>
-                <p>A project that aims to immitate the famous Top Trumps game using external, third-party API's. During
-                    the
-                    game,
-                    the user is presented a card from which they have to choose a stat. The stat is compared against the
-                    same
-                    stat on the CPU's card, and the higher stat wins the round and gains a point. At the end, the player
-                    with
-                    the highest number of points wins. Previous game history with timestamps and details can be viewed.
-                </p>
-                <p class="built_with">Python | API's</p>
-            </div>
-        </a>
+            <a href="https://github.com/NahdaaJ/top-trumps-game" target="_blank">
+                <div class="project_card">
+                    <h2>Top Trumps Game</h2>
+                    <p class="project_date">June 2023 - July 2023</p>
+                    <p>A project that aims to immitate the famous Top Trumps game using external, third-party API's.
+                        During
+                        the
+                        game,
+                        the user is presented a card from which they have to choose a stat. The stat is compared against
+                        the
+                        same
+                        stat on the CPU's card, and the higher stat wins the round and gains a point. At the end, the
+                        player
+                        with
+                        the highest number of points wins. Previous game history with timestamps and details can be
+                        viewed.
+                    </p>
+                    <hr class="project_card_hr" />
+                    <p class="built_with"><span class="tech">Python</span> <span class="tech">API's</span></p>
+                </div>
+            </a>
 
-        <a href="https://github.com/NahdaaJ/LibraryManagementSystem">
-            <div class="project_card">
-                <h2>Library Management System</h2>
-                <p class="project_date">May 2023 - May 2023</p>
-                <p>This is a Library Management System project. This project mimics how a library system would run,
-                    including
-                    user and staff login with different functionalities. THe users can loan, return and search for
-                    books.
-                    Staff
-                    can create, delete and edit users, renew books and edit the book inventory table. The project is
-                    linked
-                    to a
-                    library manager relational database, that contains three tables that are responsible for book
-                    inventory,
-                    user details and loans. </p>
-                <p class="built_with">C# | .NET | MySQL</p>
-            </div>
-        </a>
+            <a href="https://github.com/NahdaaJ/LibraryManagementSystem" target="_blank">
+                <div class="project_card">
+                    <h2>Library Management System</h2>
+                    <p class="project_date">May 2023 - May 2023</p>
+                    <p>This is a Library Management System project. This project mimics how a library system would run,
+                        including
+                        user and staff login with different functionalities. The users can loan, return and search for
+                        books.
+                        Staff
+                        can create, delete and edit users, renew books and edit the book inventory table. The project is
+                        linked
+                        to a
+                        library manager relational database, that contains three tables that are responsible for book
+                        inventory,
+                        user details and loans. </p>
+                    <hr class="project_card_hr" />
+                    <p class="built_with"><span class="tech">C#</span> <span class="tech">.NET</span> <span
+                            class="tech">MySQL</span></p>
+                </div>
+            </a>
+        </div>
+
 
     </div>
 </body>
